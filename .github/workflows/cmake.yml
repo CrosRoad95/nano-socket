@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
     - name: Upload artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: socket_core
-          path: ${{env.BUILD_TYPE}}
+      uses: actions/upload-artifact@v3
+      with:
+        name: socket_core
+        path: ${{env.BUILD_TYPE}}
