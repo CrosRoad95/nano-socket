@@ -28,5 +28,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: socket_core_${{ matrix.os }}
-        path: ${{ github.workspace }}/Build/${{env.BUILD_TYPE}}
+        name: socket_core ${{ matrix.os }}
+        path: ${{ github.workspace }}
