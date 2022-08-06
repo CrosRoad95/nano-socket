@@ -7,5 +7,7 @@ CMakeFiles/
 *.user
 *.proj
 *.filters
+*.cmake
+*.txt
 Debug/
 Release/
