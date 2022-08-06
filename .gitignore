@@ -1,1 +1,11 @@
 build/
+.vs/
+socket_core.dir/
+CMakeFiles/
+*.vcxproj
+*.sln
+*.user
+*.proj
+*.filters
+Debug/
+Release/
